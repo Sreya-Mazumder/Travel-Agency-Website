@@ -120,10 +120,10 @@ header {
 div>input,
 select,
 button {
-    
-    
+
+
     padding: 15px;
-    
+
     border-radius: 8px;
     background: rgb(255, 255, 255);
     border: 0;
@@ -138,18 +138,59 @@ button {
     background: rgb(255, 84, 0);
 }
 
+/* 
+main styles */
+/* popular tours styles */
+
+.popular {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex: 1;
+
+}
+
+.popular-content {
+    width: 67%;
+    /* border: 1px solid tan; */
+    padding: 10px;
+}
+
+.popular-title {
+    color: rgb(19, 19, 24);
+
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+
+.text-style {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+}
+
+.popular-img {
+    width: 33%;
+    /* border: 1px solid tomato; */
+}
 
 
 /* 
 responsive */
 
 @media screen and (max-width:576px) {
+    
+
+    /* banner */
     .banner-input {
         flex-direction: column;
         width: 70%;
-        
+
         margin-top: 10px;
-        
+
 
     }
 
@@ -157,7 +198,7 @@ responsive */
         width: 90%;
         border-radius: 8px;
         margin: 0 auto;
-        
+
     }
 
     .banner-title {
@@ -167,17 +208,49 @@ responsive */
         padding: 50px;
         padding-bottom: 0;
     }
-    .banner-description{
-       
+
+    .banner-description {
+
         padding-top: 0;
         padding: 15px;
         font-size: .8rem;
     }
+
     div>input,
     select,
     button {
         padding: 10px;
 
-}
+    }
 
+    /* popular tours */
+
+    .popular{
+        width: 90%;
+        flex-direction: column;     
+        margin: 0 auto;
+        
+    }
+    .popular-content{
+        width: 90%;
+        padding: 10px;
+        justify-content: center;
+        
+       
+
+    }
+    .popular-title{
+        font-size: 1.2rem;
+    }
+    .popular-img img{
+        width: 100%;
+    }
+    .popular-img{
+        width: 100%;
+         
+         
+    }
+.text-style{
+    font-size: .80rem;
+}
 }
