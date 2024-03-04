@@ -169,7 +169,7 @@ main styles */
     color: rgba(19, 19, 24, 0.7);
     font-size: 1.2rem;
     font-weight: 400;
-    
+
 }
 
 .popular-img {
@@ -177,12 +177,125 @@ main styles */
     /* border: 1px solid tomato; */
 }
 
+/* destination styles */
+.destination-image1 {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+
+}
+
+.destination-image2 {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1.5fr .75fr;
+
+    gap: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.destination-image3 {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1.4fr;
+
+    gap: 30px;
+}
+
+.destination-image1 img {
+    width: 100%;
+    gap: 20px;
+}
+
+.destination-image2 img {
+    width: 100%;
+    gap: 20px;
+}
+
+.destination-image3 img {
+    width: 100%;
+    gap: 20px;
+}
+
+.l3 {
+    position: relative;
+    bottom: 800px;
+    left: 200px;
+    color: rgb(255, 255, 255);
+
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+.l4 {
+    position: relative;
+    bottom: 850px;
+    left: 800px;
+    color: rgb(255, 255, 255);
+
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+.l5 {
+    position: relative;
+    bottom: 900px;
+    left: 1450px;
+    color: rgb(255, 255, 255);
+
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+.l7{
+    position: relative;
+    bottom: 600px;
+    left: 1150px;
+    color: rgb(255, 255, 255);
+
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+.l6{
+    position: relative;
+    bottom: 550px;
+    left: 300px;
+    color: rgb(255, 255, 255);
+
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+.l1 {
+    position: relative;
+    bottom: 1200px;
+    left: 300px;
+    color: rgb(255, 255, 255);
+
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+.l2 {
+    position: relative;
+    bottom: 1250px;
+    left: 1200px;
+    color: rgb(255, 255, 255);
+
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
 
 /* 
 responsive */
 
 @media screen and (max-width:576px) {
-    
+
 
     /* banner */
     .banner-input {
@@ -225,32 +338,104 @@ responsive */
 
     /* popular tours */
 
-    .popular{
+    .popular {
         width: 90%;
-        flex-direction: column;     
+        flex-direction: column;
         margin: 0 auto;
-        
+
     }
-    .popular-content{
+
+    .popular-content {
         width: 90%;
         padding: 10px;
         justify-content: center;
-        
-       
+
+
 
     }
-    .popular-title{
+
+    .popular-title {
         font-size: 1.2rem;
     }
-    .popular-img img{
+
+    .popular-img img {
         width: 100%;
     }
-    .popular-img{
+
+    .popular-img {
         width: 100%;
-         
-         
+
+
     }
-.text-style{
-    font-size: .80rem;
-}
+
+    .text-style {
+        font-size: .80rem;
+    }
+
+    /* destination */
+    /* .destination-image1,
+    .destination-image2,
+    .destination-image3 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+    }
+    .destination-image1 img{
+        width: 100%;
+        
+    }
+    .destination-image2 img{
+        width: 100%;
+        
+       
+    }
+    .destination-image2{
+        height: 20%;
+        gap: 0;
+    }
+    .destination-image3{
+        height: 20%;
+        gap: 0;
+    }
+    #lanka,#bd{
+        height: 70%;
+        
+    }
+    #kashmir{
+        height: 50%;
+    } */
+    .image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .destination-image1,
+    .destination-image2,
+    .destination-image3 {
+        grid-template-columns: none;
+    }
+
+    #kashmir {
+        position: relative;
+        bottom: 40px;
+        height: 50%;
+    }
+
+    /* #lanka,#bd{
+        height: 70%;
+        
+    } */
+    #bd {
+        position: relative;
+        bottom: 200px;
+    }
+
+    #bandarban {
+        position: relative;
+        bottom: 200px;
+        height: 100%;
+    }
 }
