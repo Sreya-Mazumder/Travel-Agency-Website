@@ -222,7 +222,7 @@ main styles */
 
 .l3 {
     position: relative;
-    bottom: 800px;
+    bottom: 850px;
     left: 200px;
     color: rgb(255, 255, 255);
 
@@ -230,9 +230,10 @@ main styles */
     font-weight: 800;
 
 }
+
 .l4 {
     position: relative;
-    bottom: 850px;
+    bottom: 920px;
     left: 800px;
     color: rgb(255, 255, 255);
 
@@ -240,9 +241,10 @@ main styles */
     font-weight: 800;
 
 }
+
 .l5 {
     position: relative;
-    bottom: 900px;
+    bottom: 970px;
     left: 1450px;
     color: rgb(255, 255, 255);
 
@@ -250,7 +252,8 @@ main styles */
     font-weight: 800;
 
 }
-.l7{
+
+.l7 {
     position: relative;
     bottom: 600px;
     left: 1150px;
@@ -260,7 +263,8 @@ main styles */
     font-weight: 800;
 
 }
-.l6{
+
+.l6 {
     position: relative;
     bottom: 550px;
     left: 300px;
@@ -270,6 +274,7 @@ main styles */
     font-weight: 800;
 
 }
+
 .l1 {
     position: relative;
     bottom: 1200px;
@@ -280,6 +285,7 @@ main styles */
     font-weight: 800;
 
 }
+
 .l2 {
     position: relative;
     bottom: 1250px;
@@ -289,6 +295,18 @@ main styles */
     font-size: 1.8rem;
     font-weight: 800;
 
+}
+
+.destination-title {
+    color: rgb(19, 19, 24);
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 80px;
+}
+.destination-description{
+    text-align: center;
+    margin-bottom: 80px;
 }
 
 /* 
@@ -438,4 +456,8 @@ responsive */
         bottom: 200px;
         height: 100%;
     }
+    .l1,.l2,.l3,.l4,.l5,.l6,.l7{
+        display: none;
+    }
+
 }
