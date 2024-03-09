@@ -220,7 +220,7 @@ main styles */
     gap: 20px;
 }
 
-.l3 {
+/* .l3 {
     position: relative;
     bottom: 850px;
     left: 200px;
@@ -295,7 +295,7 @@ main styles */
     font-size: 1.8rem;
     font-weight: 800;
 
-}
+} */
 
 .destination-title {
     color: rgb(19, 19, 24);
@@ -304,10 +304,198 @@ main styles */
     text-align: center;
     margin-top: 80px;
 }
-.destination-description{
+
+.destination-description {
     text-align: center;
     margin-bottom: 80px;
 }
+
+/* footer section styles */
+footer {
+    width: 89.7%;
+
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 100px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-title {
+    color: rgb(19, 19, 24);
+    margin-left: 20px;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+.footer-description {
+    text-align: center;
+}
+
+.footer-img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+hr {
+    width: 60%;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+
+/* why choose us section styles */
+.choose-content {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.choose-title {
+    color: rgb(19, 19, 24);
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.choose-description {
+    margin-bottom: 50px;
+}
+
+.choose-box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.box1-img {
+    width: 15%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.box1-title {
+    color: rgb(19, 19, 24);
+
+    font-size: 1.7rem;
+    font-weight: 800;
+
+}
+
+.box1 {
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+    padding: 40px;
+}
+
+.box2 {
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+    padding: 40px;
+}
+
+.box3 {
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+    padding: 40px;
+
+    margin-bottom: 100px;
+
+}
+
+.center {
+    position: relative;
+    left: 450px;
+
+}
+
+/* newsletter styles */
+.newsletter {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.news-title {
+    color: rgb(19, 19, 24);
+    font-size: 1.3rem;
+    font-weight: 800;
+
+}
+
+.newsletter hr {
+    border: 1px solid rgba(19, 19, 24, 0.1);
+}
+
+.news-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-input-field {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.newsletter .btn-primary {
+    width: 40%;
+}
+
+.newsletter-container {
+
+    display: flex;
+    gap: 20px;
+    margin-bottom: 100px;
+
+}
+
+.travel {
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    width: 18%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+    left: 1360px;
+    transform: rotate(-19.63deg);
+}
+
+.travel2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+.travel1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
 
 /* 
 responsive */
@@ -391,40 +579,7 @@ responsive */
     }
 
     /* destination */
-    /* .destination-image1,
-    .destination-image2,
-    .destination-image3 {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        
-    }
-    .destination-image1 img{
-        width: 100%;
-        
-    }
-    .destination-image2 img{
-        width: 100%;
-        
-       
-    }
-    .destination-image2{
-        height: 20%;
-        gap: 0;
-    }
-    .destination-image3{
-        height: 20%;
-        gap: 0;
-    }
-    #lanka,#bd{
-        height: 70%;
-        
-    }
-    #kashmir{
-        height: 50%;
-    } */
+
     .image {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -442,10 +597,7 @@ responsive */
         height: 50%;
     }
 
-    /* #lanka,#bd{
-        height: 70%;
-        
-    } */
+
     #bd {
         position: relative;
         bottom: 200px;
@@ -456,8 +608,105 @@ responsive */
         bottom: 200px;
         height: 100%;
     }
-    .l1,.l2,.l3,.l4,.l5,.l6,.l7{
+
+    /* .l1,.l2,.l3,.l4,.l5,.l6,.l7{
         display: none;
+    } */
+    .destination-title,
+    .footer-title {
+        font-size: 1.5rem;
+    }
+
+    .destination-description {
+        padding: 5px;
+    }
+
+    /* footer */
+    footer {
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        width: 89%;
+
+
+    }
+
+    /* why choose us */
+    .choose-container {
+        width: 93%;
+        padding: 0;
+    }
+
+    .choose-content {
+        width: 100%;
+    }
+
+    .choose-title,
+    .choose-description {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .choose-box-container {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+
+    }
+
+    .center {
+        position: static;
+
+    }
+
+    .box1-img {
+        width: 15%;
+        height: 15%;
+    }
+
+    .box1-title,
+    .choose-title,
+    .news-title {
+        font-size: 1.1rem;
+
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        padding: 5px;
+    }
+
+    /* newsletter */
+    .newsletter-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .newsletter-container img {
+        width: 90%;
+    }
+
+    .newsletter {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .news-input-field {
+        padding: 0;
+        width: 70%;
+        font-size: .9rem;
+        padding: 2px;
+        margin-top: 5px;
+    }
+
+    .newsletter .btn-primary {
+        width: 50%;
+        font-size: .8rem;
+        padding: 3px;
+        margin-bottom: 10px;
     }
 
 }
