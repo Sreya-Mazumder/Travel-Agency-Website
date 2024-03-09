@@ -481,7 +481,6 @@ hr {
 .travel2 {
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
-    font-weight: 800;
     padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -707,6 +706,15 @@ responsive */
         font-size: .8rem;
         padding: 3px;
         margin-bottom: 10px;
+    }
+    .travel{
+        left: 260px;
+        width: 20%;
+        bottom: 220px;
+
+    }
+    .travel1,.travel2{
+        font-size: .8rem;
     }
 
 }
